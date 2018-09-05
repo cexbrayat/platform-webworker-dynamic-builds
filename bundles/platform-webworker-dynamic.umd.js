@@ -1,6 +1,6 @@
 /**
- * @license Angular v5.1.0-beta.0-21bfaf226
- * (c) 2010-2017 Google, Inc. https://angular.io/
+ * @license Angular v7.0.0-beta.4-a2418a9037
+ * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
 (function (global, factory) {
@@ -10,13 +10,13 @@
 }(this, (function (exports,_angular_common,_angular_compiler,_angular_core,_angular_platformBrowserDynamic) { 'use strict';
 
 /**
- * @license Angular v5.1.0-beta.0-21bfaf226
- * (c) 2010-2017 Google, Inc. https://angular.io/
+ * @license Angular v7.0.0-beta.4-a2418a9037
+ * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
 /**
  * @license
@@ -25,19 +25,12 @@
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-/**
- * @module
- * @description
- * Entry point for all public APIs of the common package.
- */
-/**
- * \@stable
- */
-var VERSION = new _angular_core.Version('5.1.0-beta.0-21bfaf226');
+/** @type {?} */
+var VERSION = new _angular_core.Version('7.0.0-beta.4-a2418a9037');
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
 /**
  * @license
@@ -46,9 +39,9 @@ var VERSION = new _angular_core.Version('5.1.0-beta.0-21bfaf226');
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-/**
+/** *
  * \@experimental API related to bootstrapping are still under review.
- */
+  @type {?} */
 var platformWorkerAppDynamic = _angular_core.createPlatformFactory(_angular_platformBrowserDynamic.ɵplatformCoreDynamic, 'workerAppDynamic', [
     {
         provide: _angular_core.COMPILER_OPTIONS,
